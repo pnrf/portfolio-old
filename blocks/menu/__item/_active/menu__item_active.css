@@ -2,13 +2,24 @@
   pointer-events: none;
 }
 
-.menu__item_active::after {
+.menu__item_active::before {
   content: "";
   display: block;
   position: absolute;
   top: 1px;
-  right: 0;
+  right: 10px;
   border-top: 12px solid transparent;
   border-bottom: 12px solid transparent;
-  border-right: 12px solid #F2F0ED;
+  border-right: 12px solid #D5AB74;
+}
+
+.menu__item_active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 11px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 9px solid #3C4860;
 }

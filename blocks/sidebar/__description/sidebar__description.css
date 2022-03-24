@@ -1,9 +1,6 @@
 .sidebar__description {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
+  margin: 0 0 20px 20px;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
-  z-index: 2;
 }
