@@ -6,6 +6,9 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__datetime/content__datetime.css);
 @import url(../blocks/content/__description/content__description.css);
+@import url(../blocks/content/__img-container/content__img-container.css);
+@import url(../blocks/content/__img-figcaption/content__img-figcaption.css);
+@import url(../blocks/content/__img/content__img.css);
 @import url(../blocks/content/__item/content__item.css);
 @import url(../blocks/content/__items/content__items.css);
 @import url(../blocks/content/__portfolio/content__portfolio.css);
@@ -53,6 +56,7 @@
 /** sidebar **/
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/sidebar/__content/sidebar__content.css);
+@import url(../blocks/sidebar/__description/sidebar__description.css);
 
 /** footer **/
 @import url(../blocks/footer/footer.css);

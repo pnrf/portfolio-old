@@ -21,10 +21,10 @@
         <p class="logo__subtitle">С ноября 2021 года изучаю веб-разработку в Яндекс.Практикуме. Планирую сменить профессию.</p>
         <nav class="menu">
           <ul class="menu__items">
-            <li class="menu__item"><a href="#" class="link">Обо мне</a></li>
-            <li class="menu__item menu__item_active"><a href="#" class="link link_active">Портфолио</a></li>
-            <li class="menu__item"><a href="#" class="link">Шпаргалки</a></li>
             <li class="menu__item"><a href="#" class="link">Блог</a></li>
+            <li class="menu__item menu__item_active"><a href="#" class="link link_active">Портфолио</a></li>
+            <li class="menu__item"><a href="#" class="link">Полезности</a></li>
+            <li class="menu__item"><a href="#" class="link">Моя история</a></li>
             <li class="menu__item menu__item_style_highlighted"><a href="#" class="link">Резюме</a></li>
             <li class="menu__item menu__item_style_highlighted"><a href="#" class="link">Контакты</a></li>
           </ul>
@@ -35,6 +35,11 @@
             <li class="menu__item"><a href="#" class="link"><img src="./images/icons-social/icon-mail-white.png" alt="Написать письмо" class="menu__icon"></a></li>
           </ul>
         </nav>
+        <div class="sidebar__description">
+          <p class="header__subtitle">&copy; 2022. Юрий Панкратов</p>
+          <p class="header__subtitle">yPankratov.ru - сайт-портфолио</p>
+          <p class="header__subtitle">начинающего веб-разработчика</p>
+        </div>
       </div>
     </aside>
 
@@ -50,9 +55,7 @@
     </header>
 
     <main class="main">
-      <div class="content">
-        <section class="content__about"></section>
-
+      <figure class="content">
         <section class="content__portfolio">
           <h1 class="content__title">Портфолио</h1>
           <p class="content__description">Ниже представлены проекты, в которых я принимал непосредственное участие.</p>
@@ -67,6 +70,10 @@
                    quidem voluptatum, nemo tenetur, perferendis saepe corrupti perspiciatis autem atque fugit obcaecati quas
                     et libero voluptas tempora veritatis consequuntur!</p>
               </div>
+              <figure class="content__img-container">
+                <img src="./images/Yandex-logo.png" alt="Логотип Яндекса" class="content__img">
+                <figcaption class="content__img-figcaption">HTML 5, CSS 3, БЭМ</figcaption>
+              </figure>
             </li>
             <li class="content__item">
               <div class="content__timeline">
@@ -94,6 +101,7 @@
 
         <section class="content__library"></section>
         <section class="blog"></section>
+        <section class="content__about"></section>
       </div>
     </main>
 
