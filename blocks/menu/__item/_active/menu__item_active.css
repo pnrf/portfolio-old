@@ -6,16 +6,9 @@
   content: "";
   display: block;
   position: absolute;
-  top: 4px;
+  top: 1px;
   right: 0;
-
-  /* width: 0; */
-  /* height: 0; */
-  border-top: 9px solid transparent;
-  border-bottom: 9px solid transparent;
-  border-right: 8px solid #F2F0ED;
-  /* bottom: 6px; */
-  /* left: auto; */
-  /* right: 0; */
-
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 12px solid #F2F0ED;
 }
