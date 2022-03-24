@@ -1,0 +1,31 @@
+/** общие стили **/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+/** link **/
+@import url(../blocks/link/link.css);
+
+/** logo **/
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__image/logo__image.css);
+@import url(../blocks/logo/__subtitle/logo__subtitle.css);
+@import url(../blocks/logo/__title/logo__title.css);
+
+/** menu **/
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__icon/menu__icon.css);
+@import url(../blocks/menu/__icons/menu__icons.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__item/_active/menu__item_active.css);
+@import url(../blocks/menu/__items/menu__items.css);
+
+/** page **/
+@import url(../blocks/page/page.css);
+
+/** root **/
+@import url(../blocks/root/root.css);
+
+/** sidebar **/
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__content/sidebar__content.css);
+
