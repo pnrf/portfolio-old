@@ -1,9 +1,9 @@
-.menu__icons {
+.sidebar__icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  align-self: center;
   list-style: none;
   padding: 0;
+  margin: 30px 20px;
+  width: 200px;
 }
