@@ -59,6 +59,7 @@
 
 /** sidebar **/
 @import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__button-cross/sidebar__button-cross.css);
 @import url(../blocks/sidebar/__content/sidebar__content.css);
 @import url(../blocks/sidebar/__footer/sidebar__footer.css);
 @import url(../blocks/sidebar/__icon/sidebar__icon.css);
