@@ -6,7 +6,7 @@
   content: attr(data-tooltip);
   position: absolute;
   width: 60px;
-  left: -20px; top: 35px;
+  left: -20px; top: 36px;
   background-color: transparent;
   color: rgba(213, 171, 116, 1);
   font-size: 10px;
@@ -24,6 +24,6 @@
 }
 [data-tooltip]:hover::after {
   opacity: 1;
-  top: 110%;
+  top: 43px;
   left: -20px;
 }
