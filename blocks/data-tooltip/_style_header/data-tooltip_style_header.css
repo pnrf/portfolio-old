@@ -1,13 +1,12 @@
-[data-tooltip] {
+.data-tooltip_style_header {
   position: relative;
 }
 
-[data-tooltip]::after {
+.data-tooltip_style_header::after {
   content: attr(data-tooltip);
   position: absolute;
   width: 60px;
-  left: -20px;
-  top: 36px;
+  left: -20px; top: 36px;
   background-color: #3C4860;
   color: rgba(213, 171, 116, 1);
   font-size: 10px;
@@ -19,12 +18,14 @@
   border-radius: 3px;
   border: 1px dashed rgba(213, 171, 116, 1);
   pointer-events: none;
-  opacity: 0;
+  /* opacity: 0; */
   transition: 0.8s;
+  display: none;
 
 }
-[data-tooltip]:hover::after {
+.data-tooltip_style_header:hover::after {
   opacity: 1;
-  top: 44px;
+  top: 43px;
   left: -20px;
+  display: block;
 }

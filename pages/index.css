@@ -20,6 +20,7 @@
 
 /** data-tooltip **/
 @import url(../blocks/data-tooltip/data-tooltip.css);
+@import url(../blocks/data-tooltip/_style_header/data-tooltip_style_header.css);
 
 /** header **/
 @import url(../blocks/header/header.css);
