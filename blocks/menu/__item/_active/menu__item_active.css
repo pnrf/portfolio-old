@@ -6,10 +6,10 @@
   content: "";
   display: block;
   position: absolute;
-  top: 0;
-  right: 0;
-  border-top: 12px solid transparent;
-  border-bottom: 12px solid transparent;
+  top: 9px;
+  right: -3px;
+  border-top: 10px solid transparent;
+  border-bottom: 8px solid transparent;
   border-right: 12px solid #D5AB74;
 }
 
@@ -17,9 +17,9 @@
   content: "";
   display: block;
   position: absolute;
-  top: 2px;
-  right: 1px;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  top: 11px;
+  right: -2px;
+  border-top: 8px solid transparent;
+  border-bottom: 6px solid transparent;
   border-right: 9px solid #3C4860;
 }

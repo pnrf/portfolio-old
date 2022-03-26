@@ -1,4 +1,26 @@
 .menu__item {
-  margin: 12px 0;
+  padding: 6px 0;
   position: relative;
+}
+
+.menu__item:first-child::after{
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: -3px;
+  display: block;
+  width: 5px;
+  height: 14px;
+  background-color: #3C4860;
+}
+
+.menu__item:last-child::after{
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  right: -3px;
+  display: block;
+  width: 5px;
+  height: 13px;
+  background-color: #3C4860;
 }

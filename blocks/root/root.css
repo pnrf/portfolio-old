@@ -13,8 +13,9 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 
-/* W3C standard для Firefox */
-  overflow: scroll;
+
+  /* W3C standard для Firefox */
+  overflow-y: scroll;
   scrollbar-color: #8D919B #3C4860;
   scrollbar-width: thin;
 
@@ -37,4 +38,3 @@
     border-radius: 5px;
     border: none;
 }
-

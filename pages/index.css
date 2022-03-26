@@ -49,6 +49,7 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/menu/__item/_active/menu__item_active.css);
+@import url(../blocks/menu/__item/_unselected/menu__item_unselected.css);
 @import url(../blocks/menu/__items/menu__items.css);
 
 /** page **/
