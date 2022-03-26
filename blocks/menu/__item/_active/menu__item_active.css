@@ -6,7 +6,7 @@
   content: "";
   display: block;
   position: absolute;
-  top: 1px;
+  top: 0;
   right: 0;
   border-top: 12px solid transparent;
   border-bottom: 12px solid transparent;
@@ -17,7 +17,7 @@
   content: "";
   display: block;
   position: absolute;
-  top: 3px;
+  top: 2px;
   right: 1px;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
