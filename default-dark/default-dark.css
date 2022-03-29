@@ -1,0 +1,7 @@
+.default-dark {
+  display: grid;
+  background-color: #2B313D;
+  width: 100%;
+  min-height: 450px;
+
+}

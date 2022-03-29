@@ -1,4 +1,4 @@
-.sidebar__button-cross {
+.sidebar-settings__button-cross {
   margin: 0;
   padding: 0;
   background: none;
@@ -9,11 +9,11 @@
   cursor: pointer;
   position: absolute;
   top: 15px;
-  right: 15px;
+  left: 15px;
 }
 
-.sidebar__button-cross::before,
-.sidebar__button-cross::after {
+.sidebar-settings__button-cross::before,
+.sidebar-settings__button-cross::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -23,10 +23,10 @@
   left: 4px;
 }
 
-.sidebar__button-cross::before {
+.sidebar-settings__button-cross::before {
   transform: rotate(45deg);
 }
 
-.sidebar__button-cross::after {
+.sidebar-settings__button-cross::after {
   transform: rotate(-45deg);
 }
