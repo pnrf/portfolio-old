@@ -3,15 +3,15 @@
 @import url(../vendor/fonts/fonts.css);
 
 /* default-dark */
-@import url(../default-dark/default-dark.css);
-@import url(../default-dark/__cards/default-dark__cards.css);
+@import url(../blocks/default-dark/default-dark.css);
+@import url(../blocks/default-dark/__cards/default-dark__cards.css);
 
-@import url(../card/card.css);
-@import url(../card/__image/card__image.css);
-@import url(../card/__container/card__container.css);
-@import url(../card/__text-wrapper/card__text-wrapper.css);
-@import url(../card/__text/card__text.css);
-@import url(../card/__title/card__title.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__container/card__container.css);
+@import url(../blocks/card/__text-wrapper/card__text-wrapper.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__title/card__title.css);
 
 
 
