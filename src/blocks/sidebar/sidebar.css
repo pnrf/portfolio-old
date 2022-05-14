@@ -1,0 +1,5 @@
+.sidebar {
+  width: 280px;
+  min-height: inherit;
+  flex-shrink: 0;
+}
