@@ -1,0 +1,12 @@
+.button {
+  background: transparent;
+  border: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}

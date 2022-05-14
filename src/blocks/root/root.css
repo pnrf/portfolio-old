@@ -1,0 +1,23 @@
+.root {
+  margin: 0;
+  padding: 0;
+  background-color: #2B313D;
+  color: rgba(213, 171, 116, 1);
+  font-family: 'Inter', Arial, sans-serif;
+  cursor: auto;
+
+  /* cross - browser compatibility */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+
+  /* scroll style */
+  overflow-y: scroll;
+  scrollbar-color: #8D919B #3C4860;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}

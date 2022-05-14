@@ -1,0 +1,11 @@
+.button__cross_size_s {
+  width: 20px;
+  height: 20px;
+}
+
+.button__cross_size_s::before,
+.button__cross_size_s::after {
+  width: 14px;
+  top: 8px;
+  left: 2px;
+}

@@ -1,0 +1,27 @@
+.button__cross {
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.button__cross::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: rgba(213, 171, 116, 0.8);
+  top: 13px;
+  left: 4px;
+  transform: rotate(45deg);
+}
+
+.button__cross::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: rgba(213, 171, 116, 0.8);
+  top: 13px;
+  left: 4px;
+  transform: rotate(-45deg);
+}

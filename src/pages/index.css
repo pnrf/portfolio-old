@@ -1,4 +1,16 @@
-/** общие стили **/
+/** common styles **/
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+/** button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__cross/button__cross.css);
+@import url(../blocks/button/__cross/_outlined/button__cross_outlined.css);
+@import url(../blocks/button/__cross/_size_s/button__cross_size_s.css);
+
+/** infoblock */
+@import url(../blocks/infoblock/infoblock.css);
+@import url(../blocks/infoblock/__text/infoblock__text.css);
+
+/** root */
+@import url(../blocks/root/root.css);
