@@ -1,7 +1,0 @@
-.sidebar__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 50px 0;
-  width: 240px;
-}
