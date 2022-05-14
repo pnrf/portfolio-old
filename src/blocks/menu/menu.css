@@ -1,0 +1,6 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}

@@ -1,0 +1,7 @@
+.sidebar__icon {
+  margin: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px dashed rgba(213, 171, 116, 1);
+}

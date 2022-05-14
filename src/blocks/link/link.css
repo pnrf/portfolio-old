@@ -1,0 +1,4 @@
+.link {
+  transition-duration: 0.8s;
+  touch-action: manipulation;
+}

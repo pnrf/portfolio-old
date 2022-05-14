@@ -1,0 +1,25 @@
+.menu__item_active {
+  pointer-events: none;
+}
+
+.menu__item_active::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 9px;
+  right: -3px;
+  border-top: 10px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 12px solid #D5AB74;
+}
+
+.menu__item_active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 11px;
+  right: -2px;
+  border-top: 8px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 9px solid #3C4860;
+}

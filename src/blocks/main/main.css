@@ -1,6 +1,5 @@
 .main {
-  border: 1px solid red;
   display: flex;
   justify-content: flex-start;
-  min-height: calc(100vh - 250px);
+  min-height: calc(100vh - 100px);
 }

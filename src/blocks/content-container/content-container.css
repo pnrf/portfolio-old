@@ -1,6 +1,4 @@
 .content-container {
-  border: 1px solid green;
   width: 100%;
   min-height: inherit;
-  flex-shrink: 0;
 }

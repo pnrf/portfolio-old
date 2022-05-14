@@ -18,12 +18,46 @@
     </div>
     <header class="header"></header>
     <main class="main">
-      <div class="sidebar">
-        <!-- <aside class="sidebar-drawer"></aside> -->
+      <div class="sidebar-container">
+        <aside class="sidebar">
+          <button class="button button__cross button__cross_outlined button__cross_size_s"></button>
+          <div class="sidebar__content">
+            <div class="logo">
+              <a href="#" class="link"><img class="logo__image" src="./src/images/yup-logo.png" alt="Юрий Панкратов. Фото"></a>
+              <h2 class="logo__title">Юрий Панкратов</h2>
+              <p class="logo__subtitle">С ноября 2021 года изучаю веб-разработку в Яндекс.Практикуме. Ищу работу на позицию frontend-developer.</p>
+            </div>
+            <nav class="menu">
+              <ul class="menu__items">
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Блог</a></li>
+                <li class="menu__item menu__item_active"><a href="#" class="link link__text link__text_active">Портфолио</a></li>
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Полезности</a></li>
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Моя история</a></li>
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Резюме</a></li>
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="sidebar__footer">
+            <ul class="sidebar__icons">
+              <li class="sidebar__icon" tooltip="Гитхаб"><a href="https://github.com/pnrf" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-github-white.png" alt="Ссылка на аккаунт Гитхаб"></a></li>
+              <li class="sidebar__icon" tooltip="Телеграмм"><a href="https://t.me/pnrf_tg" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-telegram-white.png" alt="Ссылка на аккаунт Телеграмм"></a></li>
+              <li class="sidebar__icon" tooltip="Вконтакте"><a href="https://vk.com/pnrf_vk" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-vk-white.png" alt="Ссылка на аккаунт Вконтакте"></a></li>
+              <li class="sidebar__icon" tooltip="е-майл"><a href="mailto:pankratov.web@gmail.com" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-mail-white.png" alt="Написать письмо"></a></li>
+            </ul>
+            <p class="sidebar__legal-inscription">© Панкратов Ю.А., 2022</p>
+            <p class="sidebar__legal-inscription">ypankratov.ru - сайт-портфолио начинающего веб-разработчика</p>
+            <p class="sidebar__legal-inscription">Возрастная категория 16+</p>
+          </div>
+
+        </aside>
       </div>
-      <div class="content-container"></div>
+      <div class="content-container">
+        <!-- <footer class="footer"></footer> -->
+      </div>
     </main>
-    <footer class="footer"></footer>
+
   </div>
   <script src="./src/pages/index.js" defer></script>
 </body>

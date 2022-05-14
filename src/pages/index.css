@@ -21,8 +21,26 @@
 @import url(../blocks/infoblock/infoblock.css);
 @import url(../blocks/infoblock/__text/infoblock__text.css);
 
+/** link */
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/__text/link__text.css);
+@import url(../blocks/link/__text/_active/link__text_active.css);
+
+/** logo */
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__image/logo__image.css);
+@import url(../blocks/logo/__subtitle/logo__subtitle.css);
+@import url(../blocks/logo/__title/logo__title.css);
+
 /** main */
 @import url(../blocks/main/main.css);
+
+/** menu */
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__item/menu__item.css);
+@import url(../blocks/menu/__item/_active/menu__item_active.css);
+@import url(../blocks/menu/__item/_unselected/menu__item_unselected.css);
+@import url(../blocks/menu/__items/menu__items.css);
 
 /** page */
 @import url(../blocks/page/page.css);
@@ -32,3 +50,15 @@
 
 /** sidebar */
 @import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/sidebar/__content/sidebar__content.css);
+@import url(../blocks/sidebar/__footer/sidebar__footer.css);
+@import url(../blocks/sidebar/__icon-img/sidebar__icon-img.css);
+@import url(../blocks/sidebar/__icon/sidebar__icon.css);
+@import url(../blocks/sidebar/__icons/sidebar__icons.css);
+@import url(../blocks/sidebar/__legal-inscription/sidebar__legal-inscription.css);
+
+/** sidebar-container */
+@import url(../blocks/sidebar-container/sidebar-container.css);
+
+/** tooltip */
+@import url(../blocks/tooltip/tooltip.css);

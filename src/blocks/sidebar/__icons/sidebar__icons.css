@@ -1,0 +1,9 @@
+.sidebar__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 35px 20px;
+  width: 200px;
+}

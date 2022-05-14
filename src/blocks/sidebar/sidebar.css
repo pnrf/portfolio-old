@@ -1,5 +1,15 @@
 .sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   width: 280px;
-  min-height: inherit;
-  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3C4860;
+  box-shadow: 3px 0px 6px -6px rgba(0,0,0,0.8);
+  border-top: 3px solid #2B313D;
+  overflow: auto;
 }

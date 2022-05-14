@@ -1,0 +1,6 @@
+.sidebar-container {
+  width: 280px;
+  min-height: inherit;
+  flex-shrink: 0;
+  transform: perspective(1px);
+}

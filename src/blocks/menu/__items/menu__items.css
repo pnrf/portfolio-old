@@ -1,0 +1,6 @@
+.menu__items {
+  list-style: none;
+  margin: 0;
+  padding-left: 20px;
+  width: calc(100% - 40px);
+}
