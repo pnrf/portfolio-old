@@ -54,17 +54,14 @@
       <div class="content-container">
         <section class="section">
           <h2 class="section__title">Заметки</h2>
-
           <div class="card">
             <div class="card__outline">
               <p class="card__caption">HTML 5, CSS 3, JavaScript</p>
-
               <div class="card__container">
                 <figure class="card__image-wrapper">
                   <img class="card__image" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg" alt="Картинка">
                   <figcaption class="card__image-caption">15.03.2022</figcaption>
                 </figure>
-
                 <div class="card__text-wrapper">
                   <h3 class="card__title">Верстаю</h3>
                   <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio laudantium debitis repellendus quaerat, vel ducimus sed expedita, mollitia eum fugit veritatis blanditiis rerum, alias architecto quibusdam ipsa dicta saepe iure.</p>
@@ -73,15 +70,86 @@
               </div>
             </div>
           </div>
-
         </section>
-        <section class="section">
+        <section class="section section_theme_light">
           <h2 class="section__title">Портфолио</h2>
+
+          <ul class="timeline">
+            <li class="timeline__item">
+              <div class="timeline__date-wrapper">
+                <time class="timeline__date">апрель - июнь 2022</time>
+              </div>
+              <div class="timeline__text-wrapper">
+                <p class="timeline__title">Место</p>
+                <p class="timeline__text">– учебный проект по основам программирования (4-9 спринты моего обучения в Яндекс.Практикуме).</p>
+                <p class="timeline__text">Работа над проектом началась с обычной верстки. С каждым двухнедельным спринтом функционал усложнялся. В настоящее время работаю
+                над взаимосвязью классов, асинхронностью и серверными запросами. </p>
+                <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/mesto" target="_blank">https://github.com/pnrf/mesto</a></p>
+                <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/mesto/" target="_blank">https://pnrf.github.io/mesto/</a></p>
+              </div>
+              <a class="link link__text" href="https://pnrf.github.io/mesto/" target="_blank">
+                <figure class="timeline__image-wrapper content__img-container">
+                  <img class="timeline__image content__img" src="./src/images/portfolio/img-porfolio-mesto.png" alt="Учебный проект Место. Скриншот">
+                  <figcaption class="timeline__image-caption content__img-figcaption">Стек: HTML, CSS, JavaScript, ООП, БЭМ, git/github. Адаптивная верстка.</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li class="timeline__item">
+              <div class="timeline__date-wrapper">
+                <time class="timeline__date">март 2022</time>
+              </div>
+              <div class="timeline__text-wrapper">
+                <p class="timeline__title">Путешествия по России</p>
+                <p class="timeline__text">- учебный проект по верстке (3-ий спринт моего обучения в Яндекс.Практикуме).</p>
+                <p class="timeline__text">В данном проекте мы оттачивали навыки адаптивной верстки, а также опробовали Grid layout.</p>
+                <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/russian-travel" target="_blank">https://github.com/pnrf/russian-travel</a></p>
+                <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/russian-travel/" target="_blank">https://pnrf.github.io/russian-travel/</a></p>
+              </div>
+              <a class="link link__text" href="https://pnrf.github.io/russian-travel/" target="_blank">
+                <figure class="timeline__image-wrapper content__img-container">
+                  <img class="timeline__image content__img" src="./src/images/portfolio/img-porfolio-russianTravel.png" alt="Учебный проект Путешествия по России. Скриншот">
+                  <figcaption class="timeline__image-caption content__img-figcaption">Стек: HTML, CSS, БЭМ, git/github. Особенности: Flexbox, Grid layout, адаптивная верстка, медиавыражения.</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li class="timeline__item">
+              <div class="timeline__date-wrapper">
+                <time class="timeline__date">декабрь 2021 - февраль 2022</time>
+              </div>
+              <div class="timeline__text-wrapper">
+                <p class="timeline__title">Научиться учиться</p>
+                <p class="timeline__text">- учебный проект по верстке (1-2 спринты моего обучения в Яндекс.Практикуме).</p>
+                <p class="timeline__text">В данном проекте мы впервые приступили к верстке реального лендинга. Опробовали Flexbox и css-анимацию.</p>
+                <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/how-to-learn" target="_blank">https://github.com/pnrf/how-to-learn</a></p>
+                <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/how-to-learn/" target="_blank">https://pnrf.github.io/how-to-learn/</a></p>
+              </div>
+              <a class="link link__text" href="https://pnrf.github.io/how-to-learn/" target="_blank">
+                <figure class="timeline__image-wrapper content__img-container">
+                  <img class="timeline__image content__img" src="./src/images/portfolio/img-porfolio-howToLearn.png" alt="Учебный проект Научиться учиться. Скриншот">
+                  <figcaption class="timeline__image-caption content__img-figcaption">Стек: HTML, CSS, БЭМ, git/github. Особенности: Flex, анимация элементов, семантическая верстка.</figcaption>
+                </figure>
+              </a>
+            </li>
+            <li class="timeline__item">
+              <div class="timeline__date-wrapper">
+                <time class="timeline__date">ноябрь 2021</time>
+              </div>
+              <div class="timeline__text-wrapper">
+                <p class="timeline__title">Начало обучения</p>
+                <p class="timeline__text">25 ноября 2021 г. я приступил к обучению веб-разработке в Яндекс.Практикуме</p>
+                <p class="timeline__text">Ранее у меня не было релевантного опыта в этой области (за исключением простого общения с ИТ-специалистами).</p>
+                </div>
+            </li>
+          </ul>
+
+
+
+
         </section>
         <section class="section">
           <h2 class="section__title">Полезности</h2>
         </section>
-        <section class="section section__gradient">
+        <section class="section section_theme_light section__gradient">
           <h2 class="section__title">Обо мне</h2>
           <p class="section__text">Привет! Меня зовут Юра, мне 41, и я начинающий вер-разработчик. Вот моя история.</p>
           <p class="section__text">19&nbsp;лет после окончания института работал юристом в&nbsp;торгово-производственных и&nbsp;консалтинговых компаниях. Из&nbsp;них последние 6&nbsp;лет занимался частной юридической практикой.</p>

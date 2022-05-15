@@ -1,0 +1,8 @@
+.timeline__item {
+  display: flex;
+}
+
+.timeline__item:last-child
+.timeline__date-wrapper {
+  border: none;
+}

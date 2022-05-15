@@ -1,0 +1,33 @@
+.timeline__date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: italic;
+  color: #8C8687;
+}
+
+.timeline__date::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: -3px;
+  display: block;
+  width: 5px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #F2F0ED;
+  z-index: 1;
+}
+
+.timeline__date::after {
+  content: " ";
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #75ae5b;
+  z-index: 2;
+}
