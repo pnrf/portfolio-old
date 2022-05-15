@@ -16,7 +16,22 @@
       <p class="infoblock__text">Здесь будет выводиться какое-то информационное сообщение</p>
       <button class="button button__cross button__cross_outlined button__cross_size_s"></button>
     </div>
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__wrapper">
+        <button class="header__button-menu" tooltip="Меню">
+          <img class="sidebar__icon sidebar__icon-img link" src="./src/images/icons/icon-menu-white.png" alt="Кнопка вызова меню">
+        </button>
+        <div class="header__logo">
+          <h2 class="header__title">yPankratov.ru - сайт-портфолио</h2>
+          <p class="header__subtitle">начинающего веб-разработчика</p>
+        </div>
+      </div>
+      <ul class="header__icons">
+        <li class="sidebar__icon" tooltip="Применимое право"><a href="#" class="link"><img class="sidebar__icon-img" src="./src/images/icons/icon-ru-white.png" alt="Иконка RU - открывает уведомление о применимом праве"></a></li>
+        <li class="sidebar__icon" tooltip="Возрастная категория"><a href="#" class="link"><img class="sidebar__icon-img" src="./src/images/icons/icon-16plus-white.png" alt="Иконка 16+ - открывает уведомление о возрастной категории пользователей"></a></li>
+        <li class="sidebar__icon" id="settings-button" tooltip="Настройки"><a href="#" class="link"><img class="sidebar__icon-img" src="./src/images/icons/icon-settings-white.png" alt="Иконка настроек - открывает правое меню с настройками сайта"></a></li>
+      </ul>
+    </header>
     <main class="main">
       <div class="sidebar-container">
         <aside class="sidebar">
@@ -25,14 +40,15 @@
             <div class="logo">
               <a href="#" class="link"><img class="logo__image" src="./src/images/yup-logo.png" alt="Юрий Панкратов. Фото"></a>
               <h2 class="logo__title">Юрий Панкратов</h2>
-              <p class="logo__subtitle">С ноября 2021 года изучаю веб-разработку в Яндекс.Практикуме. Ищу работу на позицию frontend-developer.</p>
+              <p class="logo__subtitle">С ноября 2021 года изучаю веб-разработку в Яндекс.Практикуме.</p>
+              <p class="logo__subtitle">Активно ищу работу на позицию frontend-developer.</p>
             </div>
             <nav class="menu">
               <ul class="menu__items">
                 <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Заметки</a></li>
                 <li class="menu__item menu__item_active"><a href="#" class="link link__text link__text_active">Портфолио</a></li>
                 <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Полезности</a></li>
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Обо мне</a></li>
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Моя история</a></li>
                 <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Резюме</a></li>
                 <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Контакты</a></li>
               </ul>
@@ -60,7 +76,7 @@
               <div class="card__container">
                 <figure class="card__image-wrapper">
                   <img class="card__image" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg" alt="Картинка">
-                  <figcaption class="card__image-caption">15.03.2022</figcaption>
+                  <figcaption class="card__image-caption">15 мая 2022</figcaption>
                 </figure>
                 <div class="card__text-wrapper">
                   <h3 class="card__title">Верстаю</h3>
@@ -150,19 +166,19 @@
           <h2 class="section__title">Полезности</h2>
         </section>
         <section class="section section_theme_light section__gradient">
-          <h2 class="section__title">Обо мне</h2>
-          <p class="section__text">Привет! Меня зовут Юра, мне 41, и я начинающий вер-разработчик. Вот моя история.</p>
-          <p class="section__text">19&nbsp;лет после окончания института работал юристом в&nbsp;торгово-производственных и&nbsp;консалтинговых компаниях. Из&nbsp;них последние 6&nbsp;лет занимался частной юридической практикой.</p>
-          <p class="section__text">Пандемия 2020 года крайне негативно отразилась на&nbsp;моих клиентах: многие были вынуждены значительно сократить расходы либо полностью выйти из&nbsp;бизнеса. Да, и&nbsp;мне, признаться, порядком надоело преодолевать административные барьеры.</p>
-          <p class="section__text">Сложившаяся ситуация заставила меня серьезно задуматься о&nbsp;своем будущем, позволила расширить горизонт восприятия и&nbsp;открыть новые возможности. Душа просила чего-то творческого, волшебного.</p>
-          <p class="section__text">Мне нравится, когда цифровые продукты служат прикладным целям: помогают упорядочить бизнес-процессы, расширить профессиональные или личностные возможности человека, качественно повысить жизненные условия или смягчить негативные последствия&nbsp;&mdash; делать доступным&nbsp;то, что ранее казалось непостижимым.</p>
-          <p class="section__text">После года раздумий, общения с&nbsp;IT-специалистами, изучения рынка труда и&nbsp;прогнозов аналитических агентств, принял решение сменить профессию и&nbsp;примкнуть к&nbsp;IT-сообществу.</p>
-          <p class="section__text">Хочется раскрыть свой творческий потенциал. Стать частью команды людей, объединенных целью создавать что-то новое: полезные и&nbsp;удобные информационные продукты, онлайн-сервисы, внедрять инновационные технологии.</p>
-          <p class="section__text">С&nbsp;ноября 2021&nbsp;г. учусь в&nbsp;Яндекс.Практикуме на&nbsp;курсе &laquo;веб-разработчик&raquo;. Половина учебного пути пройдена: успешно освоил основы HTML, CSS, JavaScript, включая адаптивную и&nbsp;кроссбраузерную верстку лендингов.</p>
-          <p class="section__text">Научился верстать с&nbsp;нуля по&nbsp;готовым макетам из&nbsp;Figma (pixel perfect), применять flexbox, grid layout, медиавыражения (mobile first/desktop first), css-анимацию, позиционирование элементов. Файловую структуру выстраивать по&nbsp;методологии БЭМ (Nested) под сборку Webpack. Освоил основы контроля версий git, пару раз разбирался с&nbsp;конфликтами в&nbsp;мержах.</p>
-          <p class="section__text">По&nbsp;JavaScript приступил к&nbsp;изучению ООП, классов, асинхронности, а&nbsp;также взаимодействию с&nbsp;API. На&nbsp;очереди (через пару месяцев)&nbsp;&mdash; React и&nbsp;backend.</p>
-          <p class="section__text">Ищу работу на&nbsp;позицию HTML-верстальщика. Думаю, что на&nbsp;данном этапе могу быть полезен только своим умением верстать и&nbsp;реализовывать несложный функционал (выпадающие меню, попапы, валидация форм). Для сложных проектов мне не&nbsp;хватает знаний и&nbsp;практики, поэтому склоняюсь начать свой профессиональный путь с&nbsp;самых азов.</p>
-          <p class="section__text">Последующие 20&nbsp;лет своей жизни планирую полностью посвятить себя IT. Надеюсь, мне это удастся сделать с&nbsp;вашей помощью.</p>
+          <h2 class="section__title">Моя история</h2>
+          <p class="section__text"> <span class="section__text section__text_style_lead">Привет! Меня зовут Юра, мне 41, и... я начинающий вер-разработчик. Вот моя история.</span>
+            19&nbsp;лет после окончания института работал юристом в&nbsp;торгово-производственных и&nbsp;консалтинговых компаниях. Из&nbsp;них последние 6&nbsp;лет занимался частной юридической практикой.
+            Пандемия 2020 года крайне негативно отразилась на&nbsp;моих клиентах: многие были вынуждены значительно сократить расходы либо полностью выйти из&nbsp;бизнеса. Да, и&nbsp;мне, признаться, порядком надоело преодолевать административные барьеры.
+            Сложившаяся ситуация заставила меня серьезно задуматься о&nbsp;своем будущем, позволила расширить горизонт восприятия и&nbsp;открыть новые возможности. Душа просила чего-то творческого, волшебного.
+            Мне нравится, когда цифровые продукты служат прикладным целям: помогают упорядочить бизнес-процессы, расширить профессиональные или личностные возможности человека, качественно повысить жизненные условия или смягчить негативные последствия&nbsp;&mdash; делать доступным&nbsp;то, что ранее казалось непостижимым.
+            После года раздумий, общения с&nbsp;IT-специалистами, изучения рынка труда и&nbsp;прогнозов аналитических агентств, принял решение сменить профессию и&nbsp;примкнуть к&nbsp;IT-сообществу.
+            Хочется раскрыть свой творческий потенциал. Стать частью команды людей, объединенных целью создавать что-то новое: полезные и&nbsp;удобные информационные продукты, онлайн-сервисы, внедрять инновационные технологии.
+            С&nbsp;ноября 2021&nbsp;г. учусь в&nbsp;Яндекс.Практикуме на&nbsp;курсе &laquo;веб-разработчик&raquo;. Половина учебного пути пройдена: успешно освоил основы HTML, CSS, JavaScript, включая адаптивную и&nbsp;кроссбраузерную верстку лендингов.
+            Научился верстать с&nbsp;нуля по&nbsp;готовым макетам из&nbsp;Figma (pixel perfect), применять flexbox, grid layout, медиавыражения (mobile first/desktop first), css-анимацию, позиционирование элементов. Файловую структуру выстраивать по&nbsp;методологии БЭМ (Nested) под сборку Webpack. Освоил основы контроля версий git, пару раз разбирался с&nbsp;конфликтами в&nbsp;мержах.
+            По&nbsp;JavaScript приступил к&nbsp;изучению ООП, классов, асинхронности, а&nbsp;также взаимодействию с&nbsp;API. На&nbsp;очереди (через пару месяцев)&nbsp;&mdash; React и&nbsp;backend.
+            Ищу работу на&nbsp;позицию HTML-верстальщика. Думаю, что на&nbsp;данном этапе могу быть полезен только своим умением верстать и&nbsp;реализовывать несложный функционал (выпадающие меню, попапы, валидация форм). Для сложных проектов мне не&nbsp;хватает знаний и&nbsp;практики, поэтому склоняюсь начать свой профессиональный путь с&nbsp;самых азов.
+            Последующие 20&nbsp;лет своей жизни планирую полностью посвятить себя IT. Надеюсь, мне это удастся сделать с&nbsp;вашей помощью.</p>
         </section>
 
         <footer class="footer"></footer>
