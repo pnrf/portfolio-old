@@ -1,0 +1,18 @@
+.section__gradient {
+  position: relative;
+}
+
+.section__gradient::after {
+  content: '';
+  display: block;
+  height: 80%;
+  max-height: 550px;
+  left: 0px;
+  right: -15px;
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  bottom: 0;
+  background: linear-gradient(to top,#2B313D 0,rgba(43, 49, 61,.9) 50%,rgba(43,49,61,0) 100%);
+  cursor: pointer;
+}

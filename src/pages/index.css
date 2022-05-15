@@ -8,6 +8,19 @@
 @import url(../blocks/button/__cross/_outlined/button__cross_outlined.css);
 @import url(../blocks/button/__cross/_size_s/button__cross_size_s.css);
 
+/** card */
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__button/card__button.css);
+@import url(../blocks/card/__caption/card__caption.css);
+@import url(../blocks/card/__container/card__container.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__image-caption/card__image-caption.css);
+@import url(../blocks/card/__image-wrapper/card__image-wrapper.css);
+@import url(../blocks/card/__outline/card__outline.css);
+@import url(../blocks/card/__text-wrapper/card__text-wrapper.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__title/card__title.css);
+
 /** content-container */
 @import url(../blocks/content-container/content-container.css);
 
@@ -47,6 +60,12 @@
 
 /** root */
 @import url(../blocks/root/root.css);
+
+/** section-about */
+@import url(../blocks/section/section.css);
+/* @import url(../blocks/section/__gradient/section__gradient.css); */
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/section/__text/section__text.css);
 
 /** sidebar */
 @import url(../blocks/sidebar/sidebar.css);

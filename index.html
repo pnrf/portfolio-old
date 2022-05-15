@@ -29,16 +29,15 @@
             </div>
             <nav class="menu">
               <ul class="menu__items">
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Блог</a></li>
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Заметки</a></li>
                 <li class="menu__item menu__item_active"><a href="#" class="link link__text link__text_active">Портфолио</a></li>
                 <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Полезности</a></li>
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Моя история</a></li>
+                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Обо мне</a></li>
                 <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Резюме</a></li>
                 <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Контакты</a></li>
               </ul>
             </nav>
           </div>
-
           <div class="sidebar__footer">
             <ul class="sidebar__icons">
               <li class="sidebar__icon" tooltip="Гитхаб"><a href="https://github.com/pnrf" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-github-white.png" alt="Ссылка на аккаунт Гитхаб"></a></li>
@@ -50,11 +49,55 @@
             <p class="sidebar__legal-inscription">ypankratov.ru - сайт-портфолио начинающего веб-разработчика</p>
             <p class="sidebar__legal-inscription">Возрастная категория 16+</p>
           </div>
-
         </aside>
       </div>
       <div class="content-container">
-        <!-- <footer class="footer"></footer> -->
+        <section class="section">
+          <h2 class="section__title">Заметки</h2>
+
+          <div class="card">
+            <div class="card__outline">
+              <p class="card__caption">HTML 5, CSS 3, JavaScript</p>
+
+              <div class="card__container">
+                <figure class="card__image-wrapper">
+                  <img class="card__image" src="https://pictures.s3.yandex.net/frontend-developer/cards-compressed/chelyabinsk-oblast.jpg" alt="Картинка">
+                  <figcaption class="card__image-caption">15.03.2022</figcaption>
+                </figure>
+
+                <div class="card__text-wrapper">
+                  <h3 class="card__title">Верстаю</h3>
+                  <p class="card__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio laudantium debitis repellendus quaerat, vel ducimus sed expedita, mollitia eum fugit veritatis blanditiis rerum, alias architecto quibusdam ipsa dicta saepe iure.</p>
+                </div>
+                <a href="#" class="link card__button">Подробнее</a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+        <section class="section">
+          <h2 class="section__title">Портфолио</h2>
+        </section>
+        <section class="section">
+          <h2 class="section__title">Полезности</h2>
+        </section>
+        <section class="section section__gradient">
+          <h2 class="section__title">Обо мне</h2>
+          <p class="section__text">Привет! Меня зовут Юра, мне 41, и я начинающий вер-разработчик. Вот моя история.</p>
+          <p class="section__text">19&nbsp;лет после окончания института работал юристом в&nbsp;торгово-производственных и&nbsp;консалтинговых компаниях. Из&nbsp;них последние 6&nbsp;лет занимался частной юридической практикой.</p>
+          <p class="section__text">Пандемия 2020 года крайне негативно отразилась на&nbsp;моих клиентах: многие были вынуждены значительно сократить расходы либо полностью выйти из&nbsp;бизнеса. Да, и&nbsp;мне, признаться, порядком надоело преодолевать административные барьеры.</p>
+          <p class="section__text">Сложившаяся ситуация заставила меня серьезно задуматься о&nbsp;своем будущем, позволила расширить горизонт восприятия и&nbsp;открыть новые возможности. Душа просила чего-то творческого, волшебного.</p>
+          <p class="section__text">Мне нравится, когда цифровые продукты служат прикладным целям: помогают упорядочить бизнес-процессы, расширить профессиональные или личностные возможности человека, качественно повысить жизненные условия или смягчить негативные последствия&nbsp;&mdash; делать доступным&nbsp;то, что ранее казалось непостижимым.</p>
+          <p class="section__text">После года раздумий, общения с&nbsp;IT-специалистами, изучения рынка труда и&nbsp;прогнозов аналитических агентств, принял решение сменить профессию и&nbsp;примкнуть к&nbsp;IT-сообществу.</p>
+          <p class="section__text">Хочется раскрыть свой творческий потенциал. Стать частью команды людей, объединенных целью создавать что-то новое: полезные и&nbsp;удобные информационные продукты, онлайн-сервисы, внедрять инновационные технологии.</p>
+          <p class="section__text">С&nbsp;ноября 2021&nbsp;г. учусь в&nbsp;Яндекс.Практикуме на&nbsp;курсе &laquo;веб-разработчик&raquo;. Половина учебного пути пройдена: успешно освоил основы HTML, CSS, JavaScript, включая адаптивную и&nbsp;кроссбраузерную верстку лендингов.</p>
+          <p class="section__text">Научился верстать с&nbsp;нуля по&nbsp;готовым макетам из&nbsp;Figma (pixel perfect), применять flexbox, grid layout, медиавыражения (mobile first/desktop first), css-анимацию, позиционирование элементов. Файловую структуру выстраивать по&nbsp;методологии БЭМ (Nested) под сборку Webpack. Освоил основы контроля версий git, пару раз разбирался с&nbsp;конфликтами в&nbsp;мержах.</p>
+          <p class="section__text">По&nbsp;JavaScript приступил к&nbsp;изучению ООП, классов, асинхронности, а&nbsp;также взаимодействию с&nbsp;API. На&nbsp;очереди (через пару месяцев)&nbsp;&mdash; React и&nbsp;backend.</p>
+          <p class="section__text">Ищу работу на&nbsp;позицию HTML-верстальщика. Думаю, что на&nbsp;данном этапе могу быть полезен только своим умением верстать и&nbsp;реализовывать несложный функционал (выпадающие меню, попапы, валидация форм). Для сложных проектов мне не&nbsp;хватает знаний и&nbsp;практики, поэтому склоняюсь начать свой профессиональный путь с&nbsp;самых азов.</p>
+          <p class="section__text">Последующие 20&nbsp;лет своей жизни планирую полностью посвятить себя IT. Надеюсь, мне это удастся сделать с&nbsp;вашей помощью.</p>
+        </section>
+
+        <footer class="footer"></footer>
       </div>
     </main>
 
