@@ -1,3 +1,7 @@
 .timeline__image-wrapper {
   max-width: 400px;
+  padding: 10px 10px 0;
+  border: 1px dashed rgb(174, 122, 53);
+  border-radius: 6px;
+
 }

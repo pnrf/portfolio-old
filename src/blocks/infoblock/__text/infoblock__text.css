@@ -1,6 +1,7 @@
 .infoblock__text {
   margin: 0;
-  padding: 10px;
+  padding: 16px;
+  color: rgba(213, 171, 116, 1);
   font-style: italic;
   text-align: center;
   font-size: 12px;

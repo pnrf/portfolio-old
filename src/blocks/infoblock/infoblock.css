@@ -7,5 +7,6 @@
   min-height: 50px;
   box-sizing: border-box;
   border: 1px dashed rgba(213, 171, 116, 0.8);
+  border-radius: 6px;
   position: relative;
 }
