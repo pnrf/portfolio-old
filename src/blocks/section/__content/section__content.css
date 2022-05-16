@@ -1,0 +1,4 @@
+.section__content {
+  display: flex;
+  gap: 10px;
+}

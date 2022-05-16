@@ -1,0 +1,9 @@
+.section__flexbox-item {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  height: 80px;
+  margin: 10px 5px 5px;
+  border: 1px dashed rgba(213, 171, 116, 0.8);
+  border-radius: 6px;
+}
