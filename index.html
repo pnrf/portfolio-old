@@ -11,11 +11,41 @@
     <link rel="stylesheet" href="./src/pages/index.css">
 </head>
 <body class="root">
-  <div class="page">
-    <div class="infoblock">
-      <p class="infoblock__text">Здесь будет выводиться какое-то информационное сообщение</p>
+  <div class="sidebar-container">
+    <aside class="sidebar">
       <button class="button button__cross button__cross_outlined button__cross_size_s"></button>
-    </div>
+      <div class="sidebar__content">
+        <div class="logo">
+          <a href="#" class="link"><img class="logo__image" src="./src/images/yup-logo.png" alt="Юрий Панкратов. Фото"></a>
+          <h2 class="logo__title">Юрий Панкратов</h2>
+          <p class="logo__subtitle">С ноября 2021 года изучаю веб-разработку в Яндекс.Практикуме.</p>
+          <p class="logo__subtitle">Ищу "работу мечты" на позицию frontend-developer (junior).</p>
+        </div>
+        <nav class="menu">
+          <ul class="menu__items">
+            <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Заметки</a></li>
+            <li class="menu__item menu__item_active"><a href="#" class="link link__text link__text_active">Портфолио</a></li>
+            <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Полезности</a></li>
+            <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Моя история</a></li>
+            <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Резюме</a></li>
+            <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sidebar__footer">
+        <ul class="sidebar__icons">
+          <li class="sidebar__icon" tooltip="Гитхаб"><a href="https://github.com/pnrf" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-github-white.png" alt="Ссылка на аккаунт Гитхаб"></a></li>
+          <li class="sidebar__icon" tooltip="Телеграмм"><a href="https://t.me/pnrf_tg" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-telegram-white.png" alt="Ссылка на аккаунт Телеграмм"></a></li>
+          <li class="sidebar__icon" tooltip="Вконтакте"><a href="https://vk.com/pnrf_vk" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-vk-white.png" alt="Ссылка на аккаунт Вконтакте"></a></li>
+          <li class="sidebar__icon" tooltip="е-майл"><a href="mailto:pankratov.web@gmail.com" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-mail-white.png" alt="Написать письмо"></a></li>
+        </ul>
+        <p class="sidebar__legal-inscription">© Панкратов Ю.А., 2022</p>
+        <p class="sidebar__legal-inscription">ypankratov.ru - сайт-портфолио начинающего веб-разработчика</p>
+        <p class="sidebar__legal-inscription">Возрастная категория 16+</p>
+      </div>
+    </aside>
+  </div>
+  <div class="page">
     <header class="header">
       <div class="header__wrapper">
         <button class="header__button-menu" tooltip="Меню">
@@ -32,41 +62,12 @@
         <li class="sidebar__icon" id="settings-button" tooltip="Настройки"><a href="#" class="link"><img class="sidebar__icon-img" src="./src/images/icons/icon-settings-white.png" alt="Иконка настроек - открывает правое меню с настройками сайта"></a></li>
       </ul>
     </header>
+    <div class="infoblock">
+      <p class="infoblock__text">Сайт находится в процессе разработки, поэтому некоторый функционал еще не реализован</p>
+      <button class="button button__cross button__cross_outlined button__cross_size_s"></button>
+    </div>
     <main class="main">
-      <div class="sidebar-container">
-        <aside class="sidebar">
-          <button class="button button__cross button__cross_outlined button__cross_size_s"></button>
-          <div class="sidebar__content">
-            <div class="logo">
-              <a href="#" class="link"><img class="logo__image" src="./src/images/yup-logo.png" alt="Юрий Панкратов. Фото"></a>
-              <h2 class="logo__title">Юрий Панкратов</h2>
-              <p class="logo__subtitle">С ноября 2021 года изучаю веб-разработку в Яндекс.Практикуме.</p>
-              <p class="logo__subtitle">Активно ищу работу на позицию frontend-developer.</p>
-            </div>
-            <nav class="menu">
-              <ul class="menu__items">
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Заметки</a></li>
-                <li class="menu__item menu__item_active"><a href="#" class="link link__text link__text_active">Портфолио</a></li>
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Полезности</a></li>
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Моя история</a></li>
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Резюме</a></li>
-                <li class="menu__item menu__item_unselected"><a href="#" class="link link__text">Контакты</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="sidebar__footer">
-            <ul class="sidebar__icons">
-              <li class="sidebar__icon" tooltip="Гитхаб"><a href="https://github.com/pnrf" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-github-white.png" alt="Ссылка на аккаунт Гитхаб"></a></li>
-              <li class="sidebar__icon" tooltip="Телеграмм"><a href="https://t.me/pnrf_tg" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-telegram-white.png" alt="Ссылка на аккаунт Телеграмм"></a></li>
-              <li class="sidebar__icon" tooltip="Вконтакте"><a href="https://vk.com/pnrf_vk" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-vk-white.png" alt="Ссылка на аккаунт Вконтакте"></a></li>
-              <li class="sidebar__icon" tooltip="е-майл"><a href="mailto:pankratov.web@gmail.com" class="link" target="_blank"><img class="sidebar__icon-img" src="./src/images/icons/icon-mail-white.png" alt="Написать письмо"></a></li>
-            </ul>
-            <p class="sidebar__legal-inscription">© Панкратов Ю.А., 2022</p>
-            <p class="sidebar__legal-inscription">ypankratov.ru - сайт-портфолио начинающего веб-разработчика</p>
-            <p class="sidebar__legal-inscription">Возрастная категория 16+</p>
-          </div>
-        </aside>
-      </div>
+
       <div class="content-container">
         <section class="section">
           <h2 class="section__title">Заметки</h2>
@@ -89,19 +90,21 @@
         </section>
         <section class="section section_theme_light">
           <h2 class="section__title">Портфолио</h2>
-
           <ul class="timeline">
             <li class="timeline__item">
               <div class="timeline__date-wrapper">
-                <time class="timeline__date">апрель - июнь 2022</time>
+                <time class="timeline__date">апрель -<br> июнь 2022</time>
               </div>
               <div class="timeline__text-wrapper">
-                <p class="timeline__title">Место</p>
-                <p class="timeline__text">– учебный проект по основам программирования (4-9 спринты моего обучения в Яндекс.Практикуме).</p>
-                <p class="timeline__text">Работа над проектом началась с обычной верстки. С каждым двухнедельным спринтом функционал усложнялся. В настоящее время работаю
-                над взаимосвязью классов, асинхронностью и серверными запросами. </p>
-                <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/mesto" target="_blank">https://github.com/pnrf/mesto</a></p>
-                <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/mesto/" target="_blank">https://pnrf.github.io/mesto/</a></p>
+                <div class="timeline__text-description">
+                  <p class="timeline__title">Место</p>
+                  <p class="timeline__text">– учебный проект по основам программирования (4-9 спринты моего обучения в Яндекс.Практикуме).</p>
+                  <p class="timeline__text">Работа над проектом началась с обычной верстки. С каждым двухнедельным спринтом функционал усложнялся. В настоящее время работаю
+                  над взаимосвязью классов, асинхронностью и серверными запросами. </p>
+                  <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/mesto" target="_blank">https://github.com/pnrf/mesto</a></p>
+                  <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/mesto/" target="_blank">https://pnrf.github.io/mesto/</a></p>
+                </div>
+                <p class="timeline__text-tags">Категория: учебный проект</p>
               </div>
               <a class="link link__text" href="https://pnrf.github.io/mesto/" target="_blank">
                 <figure class="timeline__image-wrapper content__img-container">
@@ -115,11 +118,14 @@
                 <time class="timeline__date">март 2022</time>
               </div>
               <div class="timeline__text-wrapper">
-                <p class="timeline__title">Путешествия по России</p>
-                <p class="timeline__text">- учебный проект по верстке (3-ий спринт моего обучения в Яндекс.Практикуме).</p>
-                <p class="timeline__text">В данном проекте мы оттачивали навыки адаптивной верстки, а также опробовали Grid layout.</p>
-                <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/russian-travel" target="_blank">https://github.com/pnrf/russian-travel</a></p>
-                <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/russian-travel/" target="_blank">https://pnrf.github.io/russian-travel/</a></p>
+                <div class="timeline__text-description">
+                  <p class="timeline__title">Путешествия по России</p>
+                  <p class="timeline__text">- учебный проект по верстке (3-ий спринт моего обучения в Яндекс.Практикуме).</p>
+                  <p class="timeline__text">В данном проекте мы оттачивали навыки адаптивной верстки, а также опробовали Grid layout.</p>
+                  <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/russian-travel" target="_blank">https://github.com/pnrf/russian-travel</a></p>
+                  <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/russian-travel/" target="_blank">https://pnrf.github.io/russian-travel/</a></p>
+                </div>
+                <p class="timeline__text-tags">Категория: учебный проект</p>
               </div>
               <a class="link link__text" href="https://pnrf.github.io/russian-travel/" target="_blank">
                 <figure class="timeline__image-wrapper content__img-container">
@@ -133,16 +139,19 @@
                 <time class="timeline__date">декабрь 2021 - февраль 2022</time>
               </div>
               <div class="timeline__text-wrapper">
-                <p class="timeline__title">Научиться учиться</p>
-                <p class="timeline__text">- учебный проект по верстке (1-2 спринты моего обучения в Яндекс.Практикуме).</p>
-                <p class="timeline__text">В данном проекте мы впервые приступили к верстке реального лендинга. Опробовали Flexbox и css-анимацию.</p>
-                <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/how-to-learn" target="_blank">https://github.com/pnrf/how-to-learn</a></p>
-                <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/how-to-learn/" target="_blank">https://pnrf.github.io/how-to-learn/</a></p>
+                <div class="timeline__text-description">
+                  <p class="timeline__title">Научиться учиться</p>
+                  <p class="timeline__text">- учебный проект по верстке (1-2 спринты моего обучения в Яндекс.Практикуме).</p>
+                  <p class="timeline__text">В данном проекте мы впервые приступили к верстке реального лендинга. Опробовали Flexbox и css-анимацию.</p>
+                  <p class="timeline__text">Репозиторий: <a class="link link__text link__text_active" href="https://github.com/pnrf/how-to-learn" target="_blank">https://github.com/pnrf/how-to-learn</a></p>
+                  <p class="timeline__text">Сайт: <a class="link link__text link__text_active" href="https://pnrf.github.io/how-to-learn/" target="_blank">https://pnrf.github.io/how-to-learn/</a></p>
+                </div>
+                <p class="timeline__text-tags">Категория: учебный проект</p>
               </div>
               <a class="link link__text" href="https://pnrf.github.io/how-to-learn/" target="_blank">
                 <figure class="timeline__image-wrapper content__img-container">
                   <img class="timeline__image content__img" src="./src/images/portfolio/img-porfolio-howToLearn.png" alt="Учебный проект Научиться учиться. Скриншот">
-                  <figcaption class="timeline__image-caption content__img-figcaption">Стек: HTML, CSS, БЭМ, git/github. Особенности: Flex, анимация элементов, семантическая верстка.</figcaption>
+                  <figcaption class="timeline__image-caption content__img-figcaption">Стек: HTML, CSS, БЭМ, git/github. Особенности: Flexbox, анимация элементов, семантическая верстка.</figcaption>
                 </figure>
               </a>
             </li>
@@ -152,8 +161,8 @@
               </div>
               <div class="timeline__text-wrapper">
                 <p class="timeline__title">Начало обучения</p>
-                <p class="timeline__text">25 ноября 2021 г. я приступил к обучению веб-разработке в Яндекс.Практикуме</p>
-                <p class="timeline__text">Ранее у меня не было релевантного опыта в этой области (за исключением простого общения с ИТ-специалистами).</p>
+                <p class="timeline__text">25 ноября 2021 г. я приступил к обучению веб-разработке в Яндекс.Практикуме.</p>
+                <p class="timeline__text">Ранее у меня не было релевантного опыта в этой области, за исключением простого общения с ИТ-специалистами и просмотра пары курсов на Udemy. Обучение программированию дается нелегко, но маленькими шажками я все же продвигаюсь к намеченной цели.</p>
                 </div>
             </li>
           </ul>
@@ -167,7 +176,7 @@
         </section>
         <section class="section section_theme_light section__gradient">
           <h2 class="section__title">Моя история</h2>
-          <p class="section__text"> <span class="section__text section__text_style_lead">Привет! Меня зовут Юра, мне 41, и... я начинающий вер-разработчик. Вот моя история.</span>
+          <p class="section__text"> <span class="section__text section__text_style_lead">Привет! Меня зовут Юра, мне 41, и я... начинающий вер-разработчик. Вот моя история.</span>
             19&nbsp;лет после окончания института работал юристом в&nbsp;торгово-производственных и&nbsp;консалтинговых компаниях. Из&nbsp;них последние 6&nbsp;лет занимался частной юридической практикой.
             Пандемия 2020 года крайне негативно отразилась на&nbsp;моих клиентах: многие были вынуждены значительно сократить расходы либо полностью выйти из&nbsp;бизнеса. Да, и&nbsp;мне, признаться, порядком надоело преодолевать административные барьеры.
             Сложившаяся ситуация заставила меня серьезно задуматься о&nbsp;своем будущем, позволила расширить горизонт восприятия и&nbsp;открыть новые возможности. Душа просила чего-то творческого, волшебного.
@@ -178,7 +187,7 @@
             Научился верстать с&nbsp;нуля по&nbsp;готовым макетам из&nbsp;Figma (pixel perfect), применять flexbox, grid layout, медиавыражения (mobile first/desktop first), css-анимацию, позиционирование элементов. Файловую структуру выстраивать по&nbsp;методологии БЭМ (Nested) под сборку Webpack. Освоил основы контроля версий git, пару раз разбирался с&nbsp;конфликтами в&nbsp;мержах.
             По&nbsp;JavaScript приступил к&nbsp;изучению ООП, классов, асинхронности, а&nbsp;также взаимодействию с&nbsp;API. На&nbsp;очереди (через пару месяцев)&nbsp;&mdash; React и&nbsp;backend.
             Ищу работу на&nbsp;позицию HTML-верстальщика. Думаю, что на&nbsp;данном этапе могу быть полезен только своим умением верстать и&nbsp;реализовывать несложный функционал (выпадающие меню, попапы, валидация форм). Для сложных проектов мне не&nbsp;хватает знаний и&nbsp;практики, поэтому склоняюсь начать свой профессиональный путь с&nbsp;самых азов.
-            Последующие 20&nbsp;лет своей жизни планирую полностью посвятить себя IT. Надеюсь, мне это удастся сделать с&nbsp;вашей помощью.</p>
+            Последующие 20&nbsp;лет своей жизни планирую полностью посвятить себя IT.</p>
         </section>
 
         <footer class="footer"></footer>

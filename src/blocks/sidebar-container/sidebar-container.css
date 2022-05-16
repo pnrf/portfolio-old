@@ -2,5 +2,6 @@
   width: 280px;
   min-height: inherit;
   flex-shrink: 0;
-  transform: perspective(1px);
+  border-right: 2px solid #2B313D;
+  /* transform: perspective(1px); */
 }

@@ -96,8 +96,10 @@
 @import url(../blocks/timeline/__image-wrapper/timeline__image-wrapper.css);
 @import url(../blocks/timeline/__image/timeline__image.css);
 @import url(../blocks/timeline/__item/timeline__item.css);
-@import url(../blocks/timeline/__text-wrapper/timeline__text-wrapper.css);
 @import url(../blocks/timeline/__text/timeline__text.css);
+@import url(../blocks/timeline/__text-description/timeline__text-description.css);
+@import url(../blocks/timeline/__text-tags/timeline__text-tags.css);
+@import url(../blocks/timeline/__text-wrapper/timeline__text-wrapper.css);
 @import url(../blocks/timeline/__title/timeline__title.css);
 
 /** tooltip */

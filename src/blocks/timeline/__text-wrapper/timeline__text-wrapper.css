@@ -1,4 +1,7 @@
 .timeline__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin-left: 20px;
   width: 45%;
   padding-bottom: 40px;

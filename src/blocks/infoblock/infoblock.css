@@ -1,8 +1,11 @@
 .infoblock {
   display: flex;
   justify-content: center;
+  margin: 5px auto;
   padding: 8px 0;
-  width: 100%;
+  max-width: 80vh;
   min-height: 50px;
   box-sizing: border-box;
+  border: 1px dashed rgba(213, 171, 116, 0.8);
+  position: relative;
 }
